@@ -32,7 +32,6 @@ export default function App() {
     >
       <div style={{ width: "100%" }}>
         <h1 className="mb-4 text-center">Room Variants</h1>
-
         <div className="d-flex flex-wrap justify-content-center gap-4">
           <InfiniteScroll
             dataLength={visibleRooms.length}
